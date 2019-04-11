@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="homework.css" />
+    <title>Lattitude</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <ul>
+      <h1>Lattitude</h1>
+    </ul>
+    <div class="dropdown">
+      <button class="dropbtn">Plots</button>
+      <div class="dropdown-content">
+        <a href="Fig1.png">Plot 1</a>
+        <a href="Fig2.png">Plot 2</a>
+        <a href="Fig3.png">Plot 3</a>
+        <a href="Fig4.png">Plot 4</a>
+        <a href="data.html">Raw Data</a>
+      </div>
+    </div>
+    <div>
+      <h2>Summary: Latitude vs. X</h2>
+      <p class="class50">
+        The purpose of this project was to analyze how weather changes as you
+        get closer to the equator. To accomplish this analysis, we first pulled
+        data from the OpenWeatherMap API to assemble a dataset on over 500
+        cities.
+      </p>
+      <p class="class50">
+        After assembling the dataset, we used Matplotlib to plot various aspects
+        of the weather vs. latitude. Factors we looked at included: temperature,
+        cloudiness, wind speed, and humidity. This site provides the source data
+        and visualizations created as part of the analysis, as well as
+        explanations and descriptions of any trends and correlations witnessed.
+      </p>
+      <img class="chart" src="Fig1.png" />
+      <img class="chart" src="Fig2.png" />
+      <img class="chart" src="Fig3.png" />
+      <img class="chart" src="Fig4.png" />
+    </div>
+  </body>
+</html>
